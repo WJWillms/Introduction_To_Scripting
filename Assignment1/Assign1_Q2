@@ -1,0 +1,13 @@
+#Assignment 1
+#Question 1
+#Calculate Acreage
+
+
+userInput = -1
+while userInput < 0:
+  userInput = float(input("Enter Number:"))
+  if userInput < 0:
+    print("Invalid Input. Number must be greater than 0.")
+
+calc = userInput/43560
+print("Acreage:",calc)
