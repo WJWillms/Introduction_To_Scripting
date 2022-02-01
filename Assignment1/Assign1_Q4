@@ -1,0 +1,19 @@
+#Assignment 1
+#Question 4
+#Age Classifier
+
+userAge = int(input("Enter an age: "))
+
+
+#Else if to determine age bracket.
+
+if userAge == 1:
+  print("The person is an infant.")
+elif userAge > 1 and userAge < 13:
+  print("The person is a child.")
+elif userAge >= 13 and userAge < 20:
+  print("The person is a teenager.")
+elif userAge >= 20:
+  print("The person is an adult.")
+else:
+  print("Invalid number.")

@@ -1,0 +1,11 @@
+#Assignment 1
+#Question 3
+#Calculate Distance
+
+
+#Ask for speed and print by hours needed per assignment.
+speed = int(input("Enter speed: "))
+
+print("Distance in 6 hours:",speed*6)
+print("Distance in 10 hours:",speed*10)
+print("Distance in 15 hours:",speed*15)
